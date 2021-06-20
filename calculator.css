@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(168, 165, 165);
+}
+.calbox{
+    padding: 8px;
+    margin: auto;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    background-color: black;
+    width:min-content;
+    box-shadow: 10px 10px 10px black  ;
+}
+.display{
+    display: inline-block;
+    background-color: rgb(116, 145, 116);
+    margin: 2px 3px;
+    grid-column: 1/5;
+}
+.button-style{
+    margin: 5px;
+}
